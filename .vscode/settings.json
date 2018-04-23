@@ -8,5 +8,6 @@
         "node_modules":true,
         "build":true,
         ".vscode":true
-    }
+    },
+    "editor.tabSize": 2
 }
