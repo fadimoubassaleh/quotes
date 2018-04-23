@@ -1,10 +1,9 @@
 import React from 'react';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
-import Home from './Home';
+import { Home } from './Home';
+import { NotFound } from './NotFound'
 import './App.css';
-
-const NotFound = () => <div>...no</div>
 
 const App = () => (
   <Switch>
