@@ -2,6 +2,15 @@ import React from 'react'
 import { PageTemplate } from './PageTemplate'
 import { quotesList } from './data'
 
+fetch('/quotes')
+.then(response => {
+  return response.json()
+})
+.then(data =>{
+  console.log(data) 
+})
+
+
 export const Articles = (props) => {
 
   let quoteID;
