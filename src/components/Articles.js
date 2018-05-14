@@ -15,8 +15,8 @@ export class Articles extends React.Component{
     let quoteID;
     
     // check if we have number
-    if (props.match.params.quoteID) {
-      quoteID = props.match.params.quoteID
+    if (this.props.match.params.quoteID) {
+      quoteID = this.props.match.params.quoteID
     } else {
       quoteID = 0
     }
