@@ -1,6 +1,5 @@
 {
   "name": "quotes",
-  "version": "batata",
   "license": "MIT",
   "scripts": {
     "start": "razzle start",
