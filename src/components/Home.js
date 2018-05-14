@@ -3,7 +3,7 @@ import { PageTemplate } from './PageTemplate'
 import './Home.css';
 
 export const Home = () => (
-  <PageTemplate header="Welcome">
+  <PageTemplate header={"Home"}>
     <div>
       this is the home page
     </div>
